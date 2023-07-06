@@ -1,5 +1,5 @@
 {
-"title": "control + w,i,l,u,n,p,h,b,f -> delete left word, move cursor one word to left/right etc. 删除左面一个词, 光标左/右移一个词 等等",
+    "title": "control + w,i,l,u,n,p,h,b,f -> delete left word, move cursor one word to left/right etc. 删除左面一个词, 光标左/右移一个词 等等",
     "rules": [
         {
             "description": "control + w: delete the word to the left of the cursor 删除光标左侧一个单词",
@@ -28,7 +28,12 @@
                     "conditions": [
                         {
                             "type": "frontmost_application_unless",
-                            "bundle_identifiers": ["^com.googlecode.iterm2$", "^com.microsoft.VSCode$", "^com.apple.Terminal$"]
+                            "bundle_identifiers": [
+                                "^com.jetbrains.intellij$",
+                                "^com.googlecode.iterm2$",
+                                "^com.microsoft.VSCode$",
+                                "^com.apple.Terminal$"
+                            ]
                         }
                     ]
 
